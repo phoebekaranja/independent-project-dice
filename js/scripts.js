@@ -6,7 +6,7 @@ function Names(name1, name2) {
 var pigGame = {
   player1Score: 0,
   player2Score: 0,
-  playerUp: 1,
+  playerUp:  1,
   turnScore: 0,
 };
 
@@ -17,11 +17,13 @@ function dieRoll () {
 
 var playerRoll = function() {
   var roll = dieRoll();
+      }
   if(roll ===1){
     pigGame.turnScore = 0;
     alertEndTurn();
     switchPlayer();
-  } else {
+  }
+   else {
     pigGame.turnScore +=roll;
     if (pigGame.playerUp === 1) {
       if (pigGame.turnScore + pigGame.player1Score >= 21) {
@@ -31,7 +33,7 @@ var playerRoll = function() {
       alertWinner(2);
   }
   }
-  return roll;
+  return dice };
 }
 
 function holdThePig() {
@@ -79,7 +81,6 @@ function alertEndTurn(){
 
 function alertWinner(playerNumber) {
   alert("Player " + playerNumber + " is the BIG winner!!");
-  resetGame();
   $(".gameStatusDisplay").text(0);
 }
 
@@ -91,14 +92,12 @@ $(document).ready(function() {
       $("#PersonName1").text(PersonName1);
       $("#PersonName2").text(PersonName2);
       // $("#Person2Button").hide();
-      // $("#Person1Button").show();
+      $("#Person1Button").show();
       $(".PersonStatus").text(pigGame.playerUp);
       event.preventDefault();
 
     var nameHolder = new Names(PersonName1, PersonName2);
-  })
-
-
+  });
   $(".roll").click(function() {
     pigResult = playerRoll();
     $(".rollResult").text(pigResult);
