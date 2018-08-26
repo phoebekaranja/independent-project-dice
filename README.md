@@ -1,8 +1,8 @@
-# {Pig-Dice-Project}
-#### {A dice Game for week4,project}, {24.August.2018}
-#### By **{PHOEBE KARANJA}**
+# Pig-Dice-Project
+#### A dice Game for Week4,project, 24.August.2018
+#### By **PHOEBE KARANJA
 ## Description
-{ It is a Pig-dice-project where two users can play against each other.}
+ It is a Pig-dice-project where two users can play against each other.
 ## Setup/Installation Requirements
 * git clone https://github.com/phoebekaranja/independent-project-dice.git
 Cd independent-project-Dice
