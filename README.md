@@ -1,6 +1,6 @@
 # Pig-Dice-Project
 #### A dice Game for Week4,project, 24.August.2018
-#### By **PHOEBE KARANJA
+#### By **PHOEBE Karanja
 ## Description
  It is a Pig-dice-project where two users can play against each other.
 ## Setup/Installation Requirements
