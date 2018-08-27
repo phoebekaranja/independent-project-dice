@@ -9,11 +9,7 @@ Cd independent-project-Dice
 atom .
 Open the index.HTML using the Web browser.
 ##link to live site
-https://phoebekaranja.github.io/independent-project-dice
-## Known Bugs
-Nothing encountered
-## Technologies Used
-
+https://phoebekaranja.github.io/independent-project-diice
 ### License
 License
 Copyright (c) 2018 phoebe Karanja

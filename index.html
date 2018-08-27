@@ -6,53 +6,31 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script  src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+      <script  src="js/jquery-3.3.1.js" ></script>
       <script  src= "js/scripts.js"></script>
-         <img src="img/phoebe.jpeg>
-  </head>
-  <body>
-    <div  class="container">
-      <div class="jumbotron">
-        <h1>Play hard to Win!</h1>
-        <form id="Form" class="form-group" action="index.html" method="post">
-        <div class="PersonsName">
-          <label class="Person-group">Name of Person1</label>
-          <input id="PHOEBE" type="text">
-        </div>
-        <div class="PersonsName">
-          <label class="Person-group">Name of Person2</label>
-          <input id="KARANJA" type="text">
-        </div>
-        <button class="Person-group btn-danger" name="button">Submit</button>
-      </form>
-    </div>
-      <br>
-      <div class="display">
-        <div class="col-md-5" id="gameDisplayPerson1">
-          <h1 id="Person1"></h1>
-                    <h1 class="DisplayPerson1Score"></h1>
-                 <div class="phoebe">
-                    <div id="Person1Button">
-                    <h2>Person 1 <span class="PersonStatus" class="Display"></span>Turn</h2>
-                    <h2>Score for this Turn: <span id="turnScore" class="Display turnScore"></span></h2>
-                    <h2>Roll Result: <span id="rollResult" class="Display rollResult"></span></h2>
-                    <button type="button" class="btn btn-warning btn-lg roll">Roll!</button>
-                    <button type="button" class="btn btn-primary btn-lg hold">Stop rolling ...</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-5" id="DisplayPerson2">
-        <h1><span id="Person 2"></span> Score: <span class="Display Person2Score">0</span></h1>
-        <div id="Person2Button">
-        <h2>Person2<span class="PersonStatus" class="Display"></span>Turn</h2>
-        <h2>Score for this Turn: <span id="turnScore" class="Display turnScore"></span></h2>
-        <h2>Roll Result: <span id="rollResult" class="Display rollResult"></span></h2>
-        <button type="button" class="btn btn-warning btn-lg roll">Roll!</button>
-        <button type="button" class="btn btn-primary btn-lg hold">Stop rolling...</button>
-      </div>
-    </div>
-    </div>
+</head>
+<body>
+  <div class="container">
+  <div class ="row">
+  <div class ="col-md-6">
+    <h1>Phoebe:<span id= "First-player"</span></h1>
+      <button id= "First-player-roll" class=btn-danger btn>Roll</button>
+      <button id= "First-player-hold" class=btn-danger btn>Hold</button>
+      <p>Round total:<span id="round-total-1"></span></p>
+      <p>Scores: <span id="score1"></span></p>
+      <p>Total scores:<span id="total-scores-1"></span></p>
+  </div>
+  </div>
+    <div class ="row">
+    <div class ="col-md-6">
+      <h1>Karanja:<span id="first-player-2"</span></h1>
+      <button id= "Second-player-roll" class=btn-danger btn>Roll</button>
+      <button id= "Second-player-hold" class=btn-success btn>Hold</button>
+      <p>Round total:<span id="round-total-1"></span></p>
+      <p>Scores:<span id="score2"></span></p>
+      <p>Total scores:<span id="total-scores-2"></span></p>
+  </div>
+  </div>
   </div>
 </body>
 </html>

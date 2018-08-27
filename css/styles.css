@@ -1,5 +1,26 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 body {
-  background-color:blue;
+  background-color:purple;
 }
 
 .jumbotron {
@@ -7,50 +28,4 @@ body {
   background-color: purple;
   border: 3px solid:indigo;
   text-decoration-color: blue;
-}
-
-img {
-  margin-top: 10px;
-  float: center;
-}
-
-#DisplayPerson1 {
-  background-color: rgba(5, 100,5);
-  border: 2px solid pink;
-}
-
-#DisplayPerson2 {
-  background-color: rgba(5, 100, 5);
-  border: 2px solid yellow;
-}
-.ph {
-  margin: 40px;
-  padding: 20px;
-  color:blue;
-
-  float:right;
-  background-color : maroon;
-}
-
-h1 {
-  color: white;
-font-style: italic;
-}
-#Phoebe {
-  float:right;
-
-}
-/*two equal columns that float next to each other*/
-.column {
-float:left;
-width:30px;
-height:3oopx;
-margin: 50px;
-display: block;
-padding: 20px
-}
-/*clear floats after the columns*/
-.row:after {
-  content: "";
-  display: show;
 }
