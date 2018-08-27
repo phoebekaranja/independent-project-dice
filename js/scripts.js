@@ -41,7 +41,7 @@ $("#First-player-hold").click(function() {
 
     firstscore = 0;
 
-    $("#total-score-1").text(totalfirstscore);
+    $("#total-score-1").text(total-first-score);
     currentPlayer = 2;
     $("#scores").text(scores);
   }
